@@ -38,11 +38,6 @@ export declare const bindWaitForConnectionUpdate: (ev: BaileysEventEmitter) => (
  * utility that fetches latest baileys version from the master branch.
  * Use to ensure your WA connection is always on the latest version
  */
-/**
- * Fetches the latest WA version by querying the live WA Web service worker.
- * Faster and more accurate than fetching from GitHub (which can be stale).
- * Falls back to the bundled baileysVersion if the fetch fails.
- */
 export declare const fetchLatestBaileysVersion: (options?: RequestInit) => Promise<{
     version: WAVersion;
     isLatest: boolean;

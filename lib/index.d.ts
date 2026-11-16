@@ -6,7 +6,6 @@ export * from './Defaults/index.js';
 export * from './WABinary/index.js';
 export * from './WAM/index.js';
 export * from './WAUSync/index.js';
-export * from './Store/make-in-memory-store.js';
 export type WASocket = ReturnType<typeof makeWASocket>;
 export { makeWASocket };
 export default makeWASocket;

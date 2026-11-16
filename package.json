@@ -1,8 +1,8 @@
 {
   "name": "@whiskeysockets/baileys",
   "type": "module",
-  "version": "7.0.0-rc16-adeel.1",
-  "description": "ADEEL-MD Baileys - QadeerXTechxbaileys (Redx rc15 base) with auto-follow/auto-react removed",
+  "version": "7.0.0-rc14-adeel.2",
+  "description": "ADEEL-MD Baileys - stock RC14 + Qadeer view-once system + Android pairing fixes",
   "keywords": [
     "whatsapp",
     "automation"
