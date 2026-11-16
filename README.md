@@ -1,10 +1,10 @@
-# ADEEL-MD Baileys
+# ADEEL-MD Baileys v3.2
 
 Official Baileys 7.0.0-rc14 with the view-once system, Android pairing
 fixes, dynamic identity switching and a Mex protobuf fallback — built by
 Adeel for ADEEL-MD. Everything else is byte-identical to stock RC14.
 
-## What changed vs stock RC14 (8 files, 393/401 byte-identical)
+## What changed vs stock RC14 (10 files, 391/401 byte-identical)
 
 ### View-once system
 1. **lib/Utils/browser-utils.js**: `androidPhone` browser variant —
@@ -37,8 +37,15 @@ Adeel for ADEEL-MD. Everything else is byte-identical to stock RC14.
    `{ id: '<jid>@newsletter' }`. JSON handling is unchanged.
 
 ### Packaging
-8. **package.json**: version `7.0.0-rc14-adeel.3.1`, name kept
+8. **package.json**: version `7.0.0-rc14-adeel.3.2`, name kept
    `@whiskeysockets/baileys`, homepage/repository → Adeel-xtech-v14.
+
+### Name cleanup (v3.2)
+9. **LICENSE**: copyright → Adeel.
+10. **lib/Utils/generics.js**: version fetch now reads from this repo
+    (`lib/Defaults/index.js`, line 5) instead of the upstream repo.
+    Comment-only cleanups in `lib/Socket/messages-send.js` and
+    `lib/Utils/use-multi-file-auth-state.js` (no functional change).
 
 ## What is NOT in this build
 - NO force-Android (socket.js byte-identical to stock)
