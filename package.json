@@ -2,7 +2,7 @@
   "name": "@whiskeysockets/baileys",
   "type": "module",
   "version": "7.0.0-rc14-adeel.3.1",
-  "description": "ADEEL-MD Baileys - stock RC14 + Qadeer view-once system + Android pairing fixes",
+  "description": "ADEEL-MD Baileys - stock RC14 + view-once system + Android pairing fixes + Mex protobuf fallback",
   "keywords": [
     "whatsapp",
     "automation"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ADEEL967MD/Adeel-xtech-v14.git"
   },
   "license": "MIT",
-  "author": "Rajeh Taher",
+  "author": "Adeel",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
