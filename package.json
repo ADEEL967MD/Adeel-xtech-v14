@@ -1,7 +1,7 @@
 {
   "name": "@whiskeysockets/baileys",
   "type": "module",
-  "version": "7.0.0-rc14-adeel.2",
+  "version": "7.0.0-rc14-adeel.3",
   "description": "ADEEL-MD Baileys - stock RC14 + Qadeer view-once system + Android pairing fixes",
   "keywords": [
     "whatsapp",
