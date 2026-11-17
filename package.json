@@ -1,7 +1,7 @@
 {
   "name": "@whiskeysockets/baileys",
   "type": "module",
-  "version": "7.0.0-rc14-adeel.3.7",
+  "version": "7.0.0-rc14-adeel.3.8",
   "description": "ADEEL-MD Baileys - stock RC14 + view-once system + Android pairing fixes + Mex protobuf fallback",
   "keywords": [
     "whatsapp",
